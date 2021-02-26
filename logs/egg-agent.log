@@ -1,0 +1,12 @@
+2021-02-26 19:41:46,365 INFO 21640 [egg:logger] init all loggers with options: {"dir":"D:\\demo\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-02-26 19:41:46,379 INFO 21640 [egg:core] dump config after load, 8ms
+2021-02-26 19:41:46,458 INFO 21640 [egg-watcher] Start watching: ["D:\\demo\\app","D:\\demo\\config","D:\\demo\\mocks","D:\\demo\\mocks_proxy","D:\\demo\\app.js"]
+2021-02-26 19:41:46,458 INFO 21640 [egg-watcher] Start watching: "D:\\demo\\app"
+2021-02-26 19:41:46,458 INFO 21640 [egg-watcher] Start watching: "D:\\demo\\config"
+2021-02-26 19:41:46,459 INFO 21640 [egg-watcher] Start watching: "D:\\demo\\mocks"
+2021-02-26 19:41:46,459 INFO 21640 [egg-watcher] Start watching: "D:\\demo\\mocks_proxy"
+2021-02-26 19:41:46,459 INFO 21640 [egg-watcher] Start watching: "D:\\demo\\app.js"
+2021-02-26 19:41:46,460 INFO 21640 [egg-watcher:agent] watcher start success
+2021-02-26 19:41:46,500 INFO 21640 [egg:core] dump config after ready, 28ms
+2021-02-26 19:42:06,309 INFO 21640 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\demo\\config\\manifest.json","stat":{"dev":3243071515,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953877948,"size":1230,"blocks":8,"atimeMs":1614339725918.2622,"mtimeMs":1614339725918.2622,"ctimeMs":1614339725918.2622,"birthtimeMs":1614339725918.2622,"atime":"2021-02-26T11:42:05.918Z","mtime":"2021-02-26T11:42:05.918Z","ctime":"2021-02-26T11:42:05.918Z","birthtime":"2021-02-26T11:42:05.918Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-02-26 19:42:06,352 INFO 21640 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\demo\\config\\manifest.json","stat":{"dev":3243071515,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953877948,"size":1230,"blocks":8,"atimeMs":1614339725918.2622,"mtimeMs":1614339725918.2622,"ctimeMs":1614339725918.2622,"birthtimeMs":1614339725918.2622,"atime":"2021-02-26T11:42:05.918Z","mtime":"2021-02-26T11:42:05.918Z","ctime":"2021-02-26T11:42:05.918Z","birthtime":"2021-02-26T11:42:05.918Z"},"remove":false,"isDirectory":false,"isFile":true}

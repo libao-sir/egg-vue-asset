@@ -1,0 +1,14 @@
+2021-02-26 19:41:50,727 INFO 11936 [egg:logger] init all loggers with options: {"dir":"D:\\demo\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-26 19:41:50,803 INFO 11936 [egg-multipart] stream mode enable
+2021-02-26 19:41:51,037 INFO 11936 [egg-static] starting static serve /public/ -> D:\demo\public
+2021-02-26 19:41:51,041 INFO 11936 [egg-security] use csrf middleware
+2021-02-26 19:41:51,043 INFO 11936 [egg-security] use methodnoallow middleware
+2021-02-26 19:41:51,044 INFO 11936 [egg-security] use noopen middleware
+2021-02-26 19:41:51,045 INFO 11936 [egg-security] use nosniff middleware
+2021-02-26 19:41:51,046 INFO 11936 [egg-security] use xssProtection middleware
+2021-02-26 19:41:51,047 INFO 11936 [egg-security] use dta middleware
+2021-02-26 19:41:51,047 INFO 11936 [egg-security] compose 6 middlewares into one security middleware
+2021-02-26 19:41:51,064 INFO 11936 [egg:core] dump config after load, 8ms
+2021-02-26 19:41:51,138 INFO 11936 [egg-watcher:application] watcher start success
+2021-02-26 19:41:51,185 INFO 11936 [egg:core] dump config after ready, 31ms
+2021-02-26 19:42:06,807 INFO 11936 [egg-view-nunjucks] loading templates from ["D:\\demo\\app\\view"]
